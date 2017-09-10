@@ -4,8 +4,6 @@ const express=require('express'),
         apiroutes=require('./server/routes/apiroutes');
 
 mongoose.connect('mongodb://localhost:27017/nb');
-
-
 const app=express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
