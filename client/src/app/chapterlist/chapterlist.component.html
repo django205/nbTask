@@ -1,0 +1,6 @@
+<h2>Chapter list</h2>
+<button type="button" class="btn btn-primary">Add</button>
+<hr>
+<div *ngFor="let chapter of chapters" class="list-group" >
+  <li class="list-group-item">{{chapter.title}}</li>
+</div>
